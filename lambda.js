@@ -2,6 +2,6 @@
 const awsServerlessExpress = require('aws-serverless-express')
 const app = require('./app')
 const server = awsServerlessExpress.createServer(app)
-exports.myhelloworld = (event, context) => awsServerlessExpress.proxy(server, event, context)
+exports.api = (event, context) => awsServerlessExpress.proxy(server, event, context)
 // exports.test = (event, context) => awsServerlessExpress.proxy(server, event, context)
 

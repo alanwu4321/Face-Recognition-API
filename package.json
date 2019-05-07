@@ -6,6 +6,7 @@
     "start": "node ./bin/www"
   },
   "dependencies": {
+    "aws-sdk": "^2.450.0",
     "aws-serverless-express": "^3.3.6",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",

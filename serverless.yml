@@ -56,7 +56,7 @@ provider:
 
 functions:
   myhelloworld:
-    handler: lambda.myhelloworld
+    handler: lambda.api
     events:
       - http: ANY {proxy+}
       - http: ANY /
